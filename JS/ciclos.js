@@ -13,7 +13,7 @@ let precioFinal = 0
 for (let i = 0; i < cantidadTotal; i++) {
 
 let compra1 = prompt ("Ingrese la excursión que quiere comprar: \n- Avistaje de ballenas \n- Snorkel con lobos marinos")
-let cantidad1 = prompt ("Ingrese la cantidad de tickets que desea comprar:");
+let cantidad1 = prompt ("Ingrese la cantidad de tickets que desea comprar:")
 
 if (compra1 == "Avistaje de ballenas") {
     if (stock1 >= cantidad1){
