@@ -15,7 +15,7 @@ function sumaPrecio(cantidad, precio){
     precioFinal += cantidad * precio
 }
 
-function calculoStock(cantidad, stock, precio){
+function sumaStock(cantidad, stock, precio){
     if(stock >= cantidad){
         sumaPrecio(cantidad, precio)
         alert("El precio total es de: $" + (cantidad * precio))
@@ -36,11 +36,11 @@ if (cantidad1 >stock) {
 }
 
 if (compra1 == "Avistaje") {
-    calculoStock (cantidad1, stock, precio1)
+    sumaStock (cantidad1, stock, precio1)
 }
 
 else if (compra1 == "Snorkel") {
-    calculoStock (cantidad1, stock, precio2)
+    sumaStock (cantidad1, stock, precio2)
 }
 
 }
