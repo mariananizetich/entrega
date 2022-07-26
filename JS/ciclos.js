@@ -1,10 +1,8 @@
-let excursion1 = "Avistaje"
+
 let precio1 = 10500
-
-let excursion2 = "Snorkel"
 let precio2 = 9000
-
 let stock = 10
+
 let precioFinal = 0
 
 class Excursion {
