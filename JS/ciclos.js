@@ -7,8 +7,6 @@ let precio2 = 9000
 let stock = 10
 let precioFinal = 0
 
-//Arrays//
-
 class Excursion {
     constructor (nombre, precio, stock){
         this.nombre = nombre;
@@ -16,7 +14,6 @@ class Excursion {
         this.stock = stock;
     }
 }
-
 
 const excursionA = new Excursion ("Avistaje", 10500, 10)
 const excursionB = new Excursion ("Snorkel", 9000, 10)
@@ -80,6 +77,3 @@ for (let i = 0; i < cantidadTotal; i++) {
 // No sé cómo hacer para que, si la cantidad de tickets ingresada no es correcta, vuelva a preguntar y se reanude el ciclo. Lo que he intentado hasta ahora no me ha salido. Además, sigue saliendo el alert final, como si hubiese hecho la compra. Dónde me puedo fijar algún ejemplo?
 
 alert ("Listo! El precio total de tu compra es de: $" + precioFinal + ". Que lo disfrutes!")
-
-
-
