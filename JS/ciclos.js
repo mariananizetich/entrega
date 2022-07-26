@@ -74,6 +74,6 @@ for (let i = 0; i < cantidadTotal; i++) {
         alert("No disponemos de la exursión indicada.")
     }
 }
-// No sé cómo hacer para que, si la cantidad de tickets ingresada no es correcta, vuelva a preguntar y se reanude el ciclo. Lo que he intentado hasta ahora no me ha salido. Además, sigue saliendo el alert final, como si hubiese hecho la compra. Dónde me puedo fijar algún ejemplo?
+// No sé cómo hacer para que, si la cantidad de tickets ingresada no es correcta, vuelva a preguntar y se reanude el ciclo. Lo que he intentado hasta ahora no me ha salido. Además, en los casos donde se aplica el else, sigue saliendo el alert final, como si hubiese hecho la compra. Dónde me puedo fijar algún ejemplo?
 
 alert ("Listo! El precio total de tu compra es de: $" + precioFinal + ". Que lo disfrutes!")
