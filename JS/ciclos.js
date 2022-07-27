@@ -17,7 +17,7 @@ const excursionA = new Excursion ("Avistaje", 10500, 10)
 const excursionB = new Excursion ("Snorkel", 9000, 10)
 
 let listaExcursiones = [excursionA, excursionB]
-let nombreExcursiones = []
+let nombreExcursiones = [] //una forma optima en linea 30
 let precios = [10500, 9000]
 let stocks = [10]
 
@@ -26,8 +26,8 @@ function listarExcursiones (){
         nombreExcursiones.push(excursion.nombre)
     }
 }
-listarExcursiones ()
-
+listarExcursiones () //una forma optima en linea 30
+//let nombreExcursiones = listarExcursiones ()
 
 do {
     cantidadTotal = parseInt (prompt ("Cuántas excursiones distintas desea comprar?"))
